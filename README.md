@@ -1,6 +1,17 @@
 # notes
 笔记记录
-<h1><a href="marquee.html">marquee 广告轮播</a></h1>
+<h1>面试：</h1>
+<h2>谷歌浏览器下，不支持css字体小于12px的解决方法？</h2>
+<h4>使用transform:scale()</h4>
+<h5>
+<style>
+	p{font-size:10px;-webkit-transform:scale(0.8);}
+	/*这里的数字0.8，是缩放比例，可以根据情况变化。*/
+</style>
+	<p>字体大小兼容性测试</p></h5>
+<hr/>
+<h1>标签：</h1>
+<h2><a href="marquee.html">marquee 广告轮播</a></h2>
 <h3>语法：&lt;marquee&gt;&lt;/marquee &gt;</h3>
 <hr/>
 <h3>属性：</h3>
