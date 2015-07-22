@@ -24,4 +24,4 @@
 <h5>padding-box:这种计算方式中width属性=内容宽度+padding宽度*2 </h5>
 <h5>border-box（传统IE浏览器）:将width属性应用到border区域（包含border大小），width=内容宽度+border宽度+padding宽度，border变化只影响内容宽度</h5>
 <h3>如图：</h3>
-<img src="img/box-sizing-demo1.jpg" height="238" width="395" alt="box-sizing:border-box">
+<img src="img/box-sizing-img-box.png" height="499" width="499" alt="content-box与border-box 对比">
