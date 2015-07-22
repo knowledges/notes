@@ -1,6 +1,7 @@
 # notes
 笔记记录
 <h1>面试：</h1>
+<hr/>
 <h2>谷歌浏览器下，不支持css字体小于12px的解决方法？</h2>
 <h4>使用transform:scale()</h4>
 <h5>
@@ -8,8 +9,15 @@
 	p{font-size:10px;-webkit-transform:scale(0.8);}
 	/*这里的数字0.8，是缩放比例，可以根据情况变化。*/
 </style>
-	<p>字体大小兼容性测试</p></h5>
+	&lt;p&gt;字体大小兼容性测试&lt;/p&gt;
+</h5>
 <hr/>
+<h2>HTML里面的行内元素，块级元素都知道，那么空元素有哪些呢？【常用】</h2>
+<h3>行内：a\br\code\img\font\em\span\label\img\strong\input\b</h3>
+<h3>块级：div\ul\li\ol\h1~h6\hr\p\tabel\fieldset</h3>
+<h3>空元素：[没有关闭空间的元素]br\hr\html\xhtml\xml</h3>
+<hr/>
+
 <h1>标签：</h1>
 <h2><a href="marquee.html">marquee 广告轮播</a></h2>
 <h3>语法：&lt;marquee&gt;&lt;/marquee &gt;</h3>
