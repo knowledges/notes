@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>marquee 广告轮播</title>
+</head>
+<body>
+<h1><em>marquee 标签：</em></h1>
+<h3>direction：滚动方向[默认:left、right、up、down]</h3>
+<h3>behavior：滚动方式[alternate:来回滚动，sroll、slide:只滚动一次、]</h3>
+<h3>loop: 文字滚动次数 [infinite:无限，-1：无限循环,int类型]</h3>
+<h3>scrollamount:决定文字滚动速度[int]</h3>
+<h3>width、height</h3>
+<h3>bgcolor</h3>
+<h3>onmouseover=this.stop() ；鼠标移动上去停止</h3>
+<h3>onmouseout=this.start() ；鼠标移走继续滚动</h3>
+
+
+
+	<marquee direction="left" onmouseover="this.stop()" onmouseout="this.start()" width="500" height="150" bgcolor="red" align="center" line-height=150>
+	<li>
+		<a href="javascript:alert(1);">11111</a>
+		<a href="javascript:alert(2);">222222</a>
+		<a href="javascript:alert(3);">33333</a>
+		<a href="javascript:alert(4);">44444</a>
+	</li>
+	</marquee>
+</body>
+</html>
